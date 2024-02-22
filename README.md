@@ -1,4 +1,4 @@
-# Example of reproducible research workflow 
+# Changing the title
 
 This is a basic example repository using Gnu make for a reproducible research workflow, as described in detail here: [tilburgsciencehub.com](http://tilburgsciencehub.com/). 
 
@@ -7,7 +7,7 @@ The main aim of this to have a basic structure, which can be easily adjusted to 
 2. Run some analysis
 3. Present results in a final pdf generated using LaTeX
 
-## Dependencies
+## Dependencies (6 dependencies)
 - R 
 - R packages: `install.packages("stargazer")`
 - [Gnu Make](https://tilburgsciencehub.com/get/make) 
@@ -16,7 +16,7 @@ The main aim of this to have a basic structure, which can be easily adjusted to 
 - Detailed installation instructions can be found here: [tilburgsciencehub.com](http://tilburgsciencehub.com/)
 
 
-## Notes
+## Notes (4 notes)
 - `make clean` removes all unncessary temporary files. 
 - Tested under Linux Mint (should work in any linux distro, as well as on Windows and Mac) 
 - IMPORTANT: In `makefile`, when using `\` to split code into multiple lines, no space should follow `\`. Otherwise Gnu make aborts with error 193. 
